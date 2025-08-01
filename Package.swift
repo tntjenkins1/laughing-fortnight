@@ -2,18 +2,17 @@
 import PackageDescription
 
 let package = Package(
-    name: "MiniDTCommon",
+    name: "Shared",
     platforms: [
         .iOS(.v14),
     ],
     products: [
-        .library(name: "MiniDTCommon", targets: ["MiniDTCommon"]),
+        .library(name: "Shared", targets: ["Shared"])
     ],
     targets: [
         .binaryTarget(
-            name: "MiniDTCommon",
-            url: "https://github.com/tntjenkins1/laughing-fortnight/releases/download/0.0.1/minidtcommon.xcframework.zip",
-            checksum: "f6f5bf614e0ad0bf3920de3f78c659f2e946e10ad128a1d4c649d010afae188e"
-        )
+            name: "Shared",
+            url: "https://github.com/tntjenkins1/laughing-fortnight/releases/download/0.0.3/Shared.xcframework.zip",
+            checksum:"2ecdda364dccfcc29e85cc989ad3604e2b8965d19cb9667963b02166e7746fa8")
     ]
 )
