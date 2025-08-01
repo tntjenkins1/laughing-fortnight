@@ -12,7 +12,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Shared",
-            url: "https://github.com/tntjenkins1/laughing-fortnight/releases/download/0.0.3/Shared.xcframework.zip",
-            checksum:"2ecdda364dccfcc29e85cc989ad3604e2b8965d19cb9667963b02166e7746fa8")
+            url: "https://github.com/tntjenkins1/laughing-fortnight/releases/download/0.0.5/Shared.xcframework.zip",
+            checksum:"cd3525187499fc9f236d7d4a32a27c9fb8749536336890a9e52dbccaecb98f69")
     ]
 )
